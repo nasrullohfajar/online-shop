@@ -5,10 +5,3 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-
-.bg-hero {
-    background-image: url("../../public/image/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}

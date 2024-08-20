@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="flex flex-col py-5 gap-y-5 max-w-[1200px] mx-auto">
-    <div class="bg-hero rounded-xl min-h-[420px] min-w-full"></div>
+    <div class="bg-gray-200 rounded-xl min-h-[420px] min-w-full" style="background-image: url('image/hero.jpg'); background-size: cover; background-position: top;"></div>
 
     <div class="grid gap-5 grid-cols-5">
         @foreach ($products as $product)

@@ -14,7 +14,7 @@
         <Nav class="flex items-center justify-between h-16 px-20 text-[#1a1a1a] border-b shadow-sm">
             <h1 class="text-xl">Online Shop</h1>
             <div class="flex gap-x-4">
-                <Button class="border-r px-4" @popper(Cart)><x-ionicon-cart class="w-6" /></Button>
+                <Button class="border-r px-4"><x-ionicon-cart class="w-6" /></Button>
                 <Button class="flex flex-row"><x-ri-user-3-fill class="w-6 mr-2" /> nvce</Button>
             </div>
         </Nav>
