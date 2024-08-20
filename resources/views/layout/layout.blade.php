@@ -20,7 +20,9 @@
         </Nav>
     </Header>
 
-    <Main></Main>
+    <Main>
+        @yield('content')
+    </Main>
 
     <Footer></Footer>
 
