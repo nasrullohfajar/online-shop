@@ -10,8 +10,8 @@
 
 <body>
     @include('popper::assets')
-    <Header>
-        <Nav class="flex items-center justify-between h-16 px-20 text-[#1a1a1a] border-b shadow-sm">
+    <Header class="sticky top-0">
+        <Nav class="flex items-center justify-between h-16 px-20 bg-white text-[#1a1a1a] border-b shadow-sm">
             <h1 class="text-xl">Online Shop</h1>
             <div class="flex gap-x-4">
                 <Button class="border-r px-4"><x-ionicon-cart class="w-6" /></Button>
